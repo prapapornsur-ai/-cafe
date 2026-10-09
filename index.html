@@ -1,0 +1,1989 @@
+<!-- หน้าหลัก & แต้มสะสม (Home & Rewards) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(90,56,37,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Brew &amp; Bloom Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/><div class="flex flex-col truncate"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Brew &amp; Bloom</span><h1 class="font-title-md text-title-md text-primary truncate">Home</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cart" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[24px]">shopping_bag</span></button><a aria-label="User Profile" class="w-11 h-11 flex items-center justify-center rounded-full p-0.5 focus:outline-none" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Greeting & Membership Status Header -->
+<section class="px-margin pt-space-sm pb-space-xs flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">สวัสดีคุณ นภัสสร</h2>
+<span aria-label="coffee" class="text-xl animate-bounce" role="img">☕</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1 mt-0.5">
+        วันนี้รับเครื่องดื่มรสละมุนแก้วไหนดีคะ?
+      </p>
+</div>
+<div class="flex items-center gap-1.5 bg-primary-fixed/60 px-3 py-1.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-primary" style="font-variation-settings: 'FILL' 1;">stars</span>
+<span class="font-label-md text-label-md text-on-primary-fixed uppercase tracking-wider font-semibold">Gold Member</span>
+</div>
+</section>
+<!-- Search & Filter Controls -->
+<section class="px-margin pt-space-sm pb-space-sm">
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-[22px] text-outline pointer-events-none">search</span>
+<input class="w-full h-12 pl-11 pr-11 bg-surface-container rounded-xl font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all duration-200" id="menu-search-input" placeholder="ค้นหาเมนูกาแฟ ชา หรือขนม..." type="search"/>
+<button aria-label="voice search" class="absolute right-3 w-7 h-7 flex items-center justify-center text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">mic</span>
+</button>
+</div>
+<!-- Category Filter Chips -->
+<div class="flex items-center gap-2 overflow-x-auto pt-3 pb-1 -mx-margin px-margin scrollbar-none" id="filter-chip-group">
+<button class="filter-chip active flex-shrink-0 px-4 py-2 rounded-full font-label-md text-label-md bg-primary-container text-on-primary shadow-sm transition-all duration-150 flex items-center gap-1.5" data-filter="all">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">local_fire_department</span>
+        ยอดนิยม
+      </button>
+<button class="filter-chip flex-shrink-0 px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all duration-150 flex items-center gap-1.5" data-filter="coffee">
+<span class="material-symbols-outlined text-[16px]">coffee</span>
+        กาแฟสด
+      </button>
+<button class="filter-chip flex-shrink-0 px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all duration-150 flex items-center gap-1.5" data-filter="matcha">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+        ชาเขียวมัทฉะ
+      </button>
+<button class="filter-chip flex-shrink-0 px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all duration-150 flex items-center gap-1.5" data-filter="bakery">
+<span class="material-symbols-outlined text-[16px]">bakery_dining</span>
+        เบเกอรี่อบใหม่
+      </button>
+<button class="filter-chip flex-shrink-0 px-4 py-2 rounded-full font-label-md text-label-md bg-surface-container text-on-surface-variant hover:bg-surface-container-high transition-all duration-150 flex items-center gap-1.5" data-filter="sugar-free">
+<span class="material-symbols-outlined text-[16px]">spa</span>
+        หวาน 0%
+      </button>
+</div>
+</section>
+<!-- Loyalty Card Widget (Function 3) -->
+<section class="px-margin py-space-xs">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-br from-primary-container via-[#4a2e1d] to-primary p-4 shadow-md text-on-primary">
+<!-- Decorative Organic Blossom Watermark -->
+<svg class="absolute -right-6 -bottom-6 w-36 h-36 opacity-10 pointer-events-none text-surface-bright" fill="currentColor" viewbox="0 0 100 100">
+<path d="M50 0 C55 25 75 45 100 50 C75 55 55 75 50 100 C45 75 25 55 0 50 C25 45 45 25 50 0 Z"></path>
+</svg>
+<div class="relative z-10 flex flex-col gap-3">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Brew &amp; Bloom Rewards</span>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-xl-mobile text-headline-xl-mobile font-bold tracking-tight text-surface-bright">340</span>
+<span class="font-body-md text-body-md text-primary-fixed-dim">คะแนน</span>
+</div>
+</div>
+<!-- Stamp Icon Badge -->
+<div class="flex items-center gap-1 bg-surface-bright/15 backdrop-blur-md px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed-dim" style="font-variation-settings: 'FILL' 1;">local_florist</span>
+<span class="font-label-sm text-label-sm text-surface-bright">8/10 สแตมป์</span>
+</div>
+</div>
+<!-- Progress Bar Indicator -->
+<div class="flex flex-col gap-1.5">
+<div class="w-full bg-black/25 rounded-full h-2.5 overflow-hidden p-0.5">
+<div class="bg-gradient-to-r from-secondary-container to-secondary-fixed h-full rounded-full transition-all duration-700 ease-out" style="width: 85%;"></div>
+</div>
+<div class="flex items-center justify-between text-on-primary/90">
+<span class="font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-secondary-fixed">check_circle</span>
+              สะสมอีก 60 คะแนน แลกฟรี 1 แก้ว
+            </span>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim">เป้าหมาย 400</span>
+</div>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="h-10 px-3 rounded-full bg-surface-bright/20 hover:bg-surface-bright/30 backdrop-blur-sm text-surface-bright font-label-md text-label-md flex items-center justify-center gap-1.5 transition-colors">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">redeem</span>
+            แลกของรางวัล
+          </button>
+<button class="h-10 px-3 rounded-full bg-surface-bright text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm hover:bg-surface-container-low transition-colors">
+<span class="material-symbols-outlined text-[18px] text-primary">qr_code_scanner</span>
+            สแกนหน้าร้าน
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Order Shortcut: สั่งซ้ำจากรอบก่อน -->
+<section class="px-margin pt-space-sm pb-space-xs">
+<div class="p-3.5 rounded-xl bg-surface-container-low shadow-sm flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<div class="relative w-12 h-12 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A macro close-up photograph of an iced velvety Dirty espresso layered over chilled rich organic sweet cream in a clear artisanal fluted glass on a light timber table in a serene cafe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9tuMqwPfIdWmlbspuWQXBsASdSDzOSEUN0dQjsaRuK9cSKj8b_3yS1Ej6m0_j31JdBcQTDbvAAqx6EIfSpmsMiXKdWEAGvcV02hVbc2xxhmjOK-A1l4gEkzw9lGVyeTUZMkD5lNhtsEy1yifANqqTlD7SLJky1wLVyhhMU1wlWFcl8cYS6OOs8edvr30e6dYcb6w7LR3Xt_sJzABj4Vszz-YpWxC_N-T8Pqp3QDpTwxeRpOy36Lc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-secondary font-semibold uppercase">สั่งด่วนรอบก่อน</span>
+<span class="font-label-sm text-label-sm text-outline-variant">• 2 วันที่แล้ว</span>
+</div>
+<span class="font-title-md text-title-md text-on-surface truncate">Signature Dirty (โอ๊ตมิลค์)</span>
+<span class="font-body-md text-body-md text-on-surface-variant">หวาน 25% • ฿105</span>
+</div>
+</div>
+<button aria-label="สั่งซ้ำทันที" class="h-10 px-3.5 flex-shrink-0 rounded-full bg-secondary text-on-secondary font-label-md text-label-md flex items-center gap-1 shadow-sm active:scale-95 transition-all" id="quick-reorder-btn">
+<span class="material-symbols-outlined text-[18px]">replay</span>
+        สั่งซ้ำ
+      </button>
+</div>
+</section>
+<!-- Daily Happy Hour Promotion Banner -->
+<section class="px-margin py-space-xs">
+<div class="relative overflow-hidden rounded-xl bg-gradient-to-r from-secondary-container via-surface-container-low to-secondary-fixed/40 p-3.5 shadow-sm flex items-center justify-between gap-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary/15 flex items-center justify-center flex-shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[22px]">timer</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="bg-tertiary-container text-on-tertiary text-[10px] font-bold px-1.5 py-0.5 rounded uppercase tracking-wider">Happy Hour</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">14:00 - 17:00</span>
+</div>
+<p class="font-label-lg text-label-lg text-on-surface font-semibold mt-0.5">
+            ลด 20% ทุกเมนูกาแฟสกัดเย็น
+          </p>
+</div>
+</div>
+<button class="h-8 px-3 rounded-full bg-secondary text-on-secondary font-label-md text-label-md flex-shrink-0 shadow-sm hover:bg-secondary/90 transition-colors">
+        รับสิทธิ์
+      </button>
+</div>
+</section>
+<!-- Recommended Menu Header -->
+<section class="px-margin pt-space-md pb-space-xs flex items-center justify-between">
+<div class="flex flex-col">
+<h3 class="font-headline-md text-headline-md text-on-surface">เมนูแนะนำยอดฮิต</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">คัดสรรจากวัตถุดิบพรีเมียมเฉพาะฤดูกาล</span>
+</div>
+<a class="font-label-md text-label-md text-primary font-semibold flex items-center hover:underline" href="#">
+      ดูทั้งหมด
+      <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</section>
+<!-- Recommended Menu Vertical Stack Cards -->
+<section class="px-margin py-space-xs flex flex-col gap-3" id="recommendation-list">
+<!-- Card 1: Dirty Coffee Signature -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 items-center relative overflow-hidden transition-transform duration-150 active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="A visually striking glass of signature Dirty Coffee with rich dense dark espresso cream cascading downward into chilled sweetened oat milk layer in natural soft afternoon cafe sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEEgpLqzHlQlIt7ILb9nVMm2azsIVmwliZl7GtEwgRBNIOQZNYe2pK72DpiQAB6WXw1Eb2oVvLX3o2r46orYAys1p3n82-frvuXnwYBgcl9TRgGfm7RrAwdj1PDLiL8BEJHDlBbvNxn-W2cq_vXfWAP7XJXDLWUU5AUHG8osAuX9PupHa9pTg6ZJeVJvPGFcoKyTl3X4cy-9heeao3iuiAwuvm6J84olxTvuiAY7IXCuPV_zjea90"/>
+<span class="absolute top-1 left-1 bg-primary text-on-primary text-[10px] font-bold px-1.5 py-0.5 rounded-full">Best Seller</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0 pr-8">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Dirty Coffee Signature</h4>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">เดอร์ตี้คอฟฟี่ นมเย็นจัดสูตรเข้มข้น</p>
+<div class="flex items-center gap-1.5 mt-1.5">
+<span class="bg-secondary-fixed/50 text-on-secondary-fixed-variant text-[11px] font-medium px-2 py-0.5 rounded-full">นมสูตรลับ</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">฿95</span>
+</div>
+</div>
+<!-- Quick Add Floating Action -->
+<button aria-label="สั่ง Dirty Coffee Signature ทันที" class="quick-add-btn absolute right-3 bottom-3 w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-item="Dirty Coffee Signature">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</article>
+<!-- Card 2: Iced Uji Matcha Latte -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 items-center relative overflow-hidden transition-transform duration-150 active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="Ceremonial grade vivid green Uji Matcha latte served in a minimalist ceramic cup with soft milk froth art surrounded by bamboo tea whisk chasen in a warm serene Tokyo inspired cafe ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRdmgiP-z9GvQsNuG6GxL7rkidwn-yufyehrgnzwg4gqvsyqlU5uFgdSAVPeHSiaYgySvXA54mSfc2ksPtQiA9FCOrLuM_kBUvCtTA0HezzQICKJrg01Rirt8AdNfPDT6PxhSe7DACsvFeUfwo90jn2JMOS1XA-01JLynFF6-qtRYNV0NgoBf_TRsa4XZy7zRX-eu1tRW79alZnlsadAWf9LcVqOfIVPY1UzU7TfNz7K5NOYeV7P4"/>
+<span class="absolute top-1 left-1 bg-secondary text-on-secondary text-[10px] font-bold px-1.5 py-0.5 rounded-full">Organic</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0 pr-8">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Iced Uji Matcha Latte</h4>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">มัทฉะแท้เกรดพิธีการ จากเกียวโต</p>
+<div class="flex items-center gap-1.5 mt-1.5">
+<span class="bg-secondary-fixed/50 text-on-secondary-fixed-variant text-[11px] font-medium px-2 py-0.5 rounded-full">100% Ceremonial</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">฿110</span>
+</div>
+</div>
+<button aria-label="สั่ง Iced Uji Matcha Latte ทันที" class="quick-add-btn absolute right-3 bottom-3 w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-item="Iced Uji Matcha Latte">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</article>
+<!-- Card 3: Yuzu Cold Brew -->
+<article class="bg-surface-container-lowest rounded-xl p-3 shadow-sm flex gap-3.5 items-center relative overflow-hidden transition-transform duration-150 active:scale-[0.99]">
+<div class="w-24 h-24 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container relative">
+<img class="w-full h-full object-cover" data-alt="Sparkling refreshing Yuzu Cold Brew coffee in a highball glass with golden citrus slices, ice cubes, and fragrant fresh rosemary garnish captured with sunlight reflections." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPLpyZCxHhq7URXi82dtM_G62PwWtJ9tyfhHJixVjyYrFw2C0-r7OPVcJr7IOkgIhxmkTg5YXx1Xh5G1WpFIXtMlHHHsopj9UQUsBBtgODiOYgIlp5sL2gHTEOQG0j_SG-OoGuNStRGiHCz4nEvkgF1nJmN9gcEqcoSlrqlAbAh4_aj8DdOVNtWVCDIfL9Q-OhdeZ8Id7FKYsewhp0wO-pd4RuYLNf3CfdtE2OgpipmFIYPLb5R9M"/>
+<span class="absolute top-1 left-1 bg-tertiary-container text-on-tertiary text-[10px] font-bold px-1.5 py-0.5 rounded-full">-20% ตอนนี้</span>
+</div>
+<div class="flex flex-col flex-1 min-w-0 pr-8">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Yuzu Cold Brew</h4>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">โคลด์บรูว์ส้มยูซุแท้ สดชื่นผ่อนคลาย</p>
+<div class="flex items-center gap-1.5 mt-1.5">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant text-[11px] font-medium px-2 py-0.5 rounded-full">สดชื่น หอมซีตรัส</span>
+<span class="font-headline-md text-headline-md text-primary font-bold">฿105</span>
+</div>
+</div>
+<button aria-label="สั่ง Yuzu Cold Brew ทันที" class="quick-add-btn absolute right-3 bottom-3 w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center shadow-md active:scale-90 transition-transform" data-item="Yuzu Cold Brew">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</article>
+</section>
+<!-- Interactive Feedback Toast (Delight moment) -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-full shadow-lg flex items-center gap-2 transform translate-y-16 opacity-0 pointer-events-none transition-all duration-300" id="toast-notification">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">check_circle</span>
+<span class="font-label-md text-label-md" id="toast-message">เพิ่มลงตะกร้าเรียบร้อยแล้ว</span>
+</div>
+</div>
+<script>
+  (function() {
+    // Category filter chip micro-interaction
+    const chips = document.querySelectorAll('#filter-chip-group .filter-chip');
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        chips.forEach(c => {
+          c.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm', 'active');
+          c.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        chip.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm', 'active');
+        chip.classList.remove('bg-surface-container', 'text-on-surface-variant');
+      });
+    });
+
+    // Toast notification handler
+    const toast = document.getElementById('toast-notification');
+    const toastMessage = document.getElementById('toast-message');
+    let toastTimeout;
+
+    function showToast(msg) {
+      if (!toast) return;
+      toastMessage.textContent = msg;
+      toast.classList.remove('translate-y-16', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      clearTimeout(toastTimeout);
+      toastTimeout = setTimeout(() => {
+        toast.classList.add('translate-y-16', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 2200);
+    }
+
+    // Quick Add buttons
+    const addBtns = document.querySelectorAll('.quick-add-btn');
+    addBtns.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const itemName = btn.getAttribute('data-item') || 'เครื่องดื่ม';
+        showToast('เพิ่ม ' + itemName + ' ลงตะกร้าแล้ว ✨');
+      });
+    });
+
+    // Quick Re-order button
+    const reorderBtn = document.getElementById('quick-reorder-btn');
+    if (reorderBtn) {
+      reorderBtn.addEventListener('click', () => {
+        showToast('สั่ง Signature Dirty ซ้ำแล้ว! กำลังเตรียมออเดอร์ ☕');
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(90,56,37,0.06)]" data-active-classes="text-primary font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 transition-all duration-200 text-primary font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">local_cafe</span><span class="font-label-sm text-label-sm leading-tight">หน้าแรก</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="menu" href="#"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm leading-tight">สั่งเครื่องดื่ม</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="news-promos" href="#"><span class="material-symbols-outlined text-[22px]">loyalty</span><span class="font-label-sm text-label-sm leading-tight">โปรโมชั่น</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="orders" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm leading-tight">คำสั่งซื้อ</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">account_circle</span><span class="font-label-sm text-label-sm leading-tight">โปรไฟล์</span></a></div></nav></body></html>
+
+<!-- เข้าสู่ระบบ (Login) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><main class="flex flex-col relative w-full pt-safe pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Top Bar: Ambient Location & Language Switcher -->
+<div class="flex items-center justify-between w-full pt-space-sm pb-space-md">
+<div class="flex items-center gap-space-xs text-on-surface-variant bg-surface-container-low px-3 py-1.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-[16px] text-primary" style="font-variation-settings: 'FILL' 1;">location_on</span>
+<span class="font-label-sm text-label-sm">สาขา อารีย์ • Ari Sanctuary</span>
+</div>
+<!-- Language Selector Pill -->
+<div class="flex items-center bg-surface-container p-0.5 rounded-full shadow-sm" id="lang-toggle-group">
+<button class="px-3 py-1 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all duration-200" id="btn-th" type="button">
+        TH
+      </button>
+<button class="px-3 py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all duration-200" id="btn-en" type="button">
+        EN
+      </button>
+</div>
+</div>
+<!-- Warm Branding Card with Sensory Greeting -->
+<div class="relative overflow-hidden w-full bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col items-center text-center mt-space-xs mb-space-lg">
+<!-- Subtle Ambient Warm Glow Background -->
+<div class="absolute -top-12 -right-12 w-44 h-44 rounded-full bg-secondary-fixed/30 blur-2xl pointer-events-none"></div>
+<div class="absolute -bottom-10 -left-10 w-36 h-36 rounded-full bg-primary-fixed/25 blur-2xl pointer-events-none"></div>
+<!-- Cafe Logo Mark -->
+<div class="relative w-20 h-20 rounded-full bg-primary-container/10 p-1.5 shadow-sm mb-space-sm flex items-center justify-center">
+<img alt="Brew &amp; Bloom Cafe Seal" class="w-full h-full object-contain rounded-full drop-shadow-sm" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/>
+</div>
+<!-- Thai Cafe Typography Heading -->
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-primary tracking-tight">
+      Brew &amp; Bloom
+    </h1>
+<p class="font-title-md text-title-md text-on-surface-variant mt-0.5">
+      ยินดีต้อนรับสู่ Brew &amp; Bloom Cafe
+    </p>
+<p class="font-body-md text-body-md text-outline mt-1 max-w-[280px]">
+      สัมผัสสุนทรียภาพแห่งกาแฟคราฟต์ ชาหอมละมุน และความสุขในทุกหยด
+    </p>
+<!-- Artisanal Roast Badge -->
+<div class="mt-space-md inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">spa</span>
+<span>Seasonal Single Origin • Slow Bar Open</span>
+</div>
+</div>
+<!-- Mobile Login Form Card -->
+<form class="w-full bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md" id="login-form">
+<!-- Identifier Field: Email or Phone -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1" for="login-identifier">
+<span>อีเมล หรือ เบอร์โทรศัพท์</span>
+<span class="text-tertiary-container">*</span>
+</label>
+<div class="relative flex items-center bg-surface-container rounded-lg focus-within:bg-surface-container-lowest focus-within:ring-2 focus-within:ring-primary/20 transition-all">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">alternate_email</span>
+<input class="w-full h-12 pl-11 pr-4 bg-transparent outline-none font-body-md text-body-md text-on-surface placeholder:text-outline/70" id="login-identifier" placeholder="example@brewbloom.co หรือ 0812345678" required="" type="text"/>
+</div>
+</div>
+<!-- Password Field with Show/Hide Toggle -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center gap-1" for="login-password">
+<span>รหัสผ่าน</span>
+<span class="text-tertiary-container">*</span>
+</label>
+<div class="relative flex items-center bg-surface-container rounded-lg focus-within:bg-surface-container-lowest focus-within:ring-2 focus-within:ring-primary/20 transition-all">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">lock</span>
+<input class="w-full h-12 pl-11 pr-11 bg-transparent outline-none font-body-md text-body-md text-on-surface placeholder:text-outline/70" id="login-password" placeholder="••••••••••••" required="" type="password"/>
+<button aria-label="Toggle password visibility" class="absolute right-3.5 text-on-surface-variant hover:text-primary transition-colors p-1" id="toggle-pwd-btn" type="button">
+<span class="material-symbols-outlined text-[20px]" id="pwd-icon">visibility_off</span>
+</button>
+</div>
+</div>
+<!-- Remember Me & Forgot Password Utilities -->
+<div class="flex items-center justify-between pt-0.5">
+<label class="flex items-center gap-2 cursor-pointer select-none">
+<input class="w-4 h-4 rounded accent-primary bg-surface-container text-primary cursor-pointer" id="remember-me" type="checkbox"/>
+<span class="font-body-md text-body-md text-on-surface-variant">จดจำฉันไว้</span>
+</label>
+<button class="font-label-lg text-label-lg text-primary hover:text-primary-container transition-colors" type="button">
+        ลืมรหัสผ่าน?
+      </button>
+</div>
+<!-- Primary Action: Login CTA -->
+<button class="w-full h-12 mt-space-xs rounded-full bg-primary hover:bg-primary-container active:scale-[0.98] text-on-primary font-headline-md text-headline-md shadow-md transition-all flex items-center justify-center gap-2" type="submit">
+<span>เข้าสู่ระบบ</span>
+<span class="material-symbols-outlined text-[20px]">local_cafe</span>
+</button>
+</form>
+<!-- Divider Pill -->
+<div class="relative flex items-center justify-center my-space-lg w-full">
+<div class="w-full h-[1px] bg-surface-container-high"></div>
+<span class="absolute bg-surface px-3 font-label-md text-label-md text-outline">
+      หรือเข้าสู่ระบบด้วย
+    </span>
+</div>
+<!-- Social Authentication Group -->
+<div class="flex flex-col gap-space-sm w-full">
+<!-- Google Login Button -->
+<button class="w-full h-12 rounded-full bg-surface-container-lowest hover:bg-surface-container-low active:scale-[0.98] text-on-surface shadow-sm font-label-lg text-label-lg flex items-center justify-center gap-3 transition-all" type="button">
+<svg class="w-5 h-5" viewbox="0 0 24 24">
+<path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path>
+<path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path>
+<path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" fill="#FBBC05"></path>
+<path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" fill="#EA4335"></path>
+</svg>
+<span>เข้าสู่ระบบด้วย Google</span>
+</button>
+<!-- LINE Login Button -->
+<button class="w-full h-12 rounded-full bg-[#06C755] hover:brightness-95 active:scale-[0.98] text-white shadow-sm font-label-lg text-label-lg flex items-center justify-center gap-2.5 transition-all" type="button">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24">
+<path d="M19.365 9.863c.349.0 1.258.118 1.455.514.197.397.098 1.18-.098 1.474-.197.295-.688.786-1.082 1.081-.393.295-.885.688-.885 1.082 0 .295.295.59.59.885.295.295.689.688.787 1.081.098.394.0 1.082-.295 1.475-.295.394-1.082.688-1.574.688h-6.589c-.688 0-1.278-.294-1.672-.786-.393-.492-.492-1.082-.492-1.77 0-.59.197-1.18.59-1.573.393-.394.983-.787 1.573-.787h.787c.295 0 .59-.197.59-.492 0-.295-.196-.492-.491-.59-.787-.295-1.574-.689-2.065-1.279-.492-.59-.689-1.278-.689-1.967.0-.885.393-1.672 1.082-2.262.688-.59 1.573-.984 2.557-.984h6.393c.492 0 1.082.197 1.475.492.394.295.59.787.59 1.279.0.491-.196.885-.59 1.18-.393.295-.983.491-1.475.491h-6.295c-.393 0-.688.197-.688.492 0 .295.295.492.688.492h5.803z"></path>
+</svg>
+<span>เข้าสู่ระบบด้วย LINE</span>
+</button>
+</div>
+<!-- Guest Ordering Shortcut Option -->
+<div class="mt-space-lg text-center flex flex-col items-center">
+<button class="px-5 py-2.5 rounded-full bg-secondary-container/60 hover:bg-secondary-container active:scale-95 text-secondary font-label-lg text-label-lg transition-all flex items-center gap-2" id="guest-browse-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">shopping_bag</span>
+<span>สั่งเครื่องดื่มแบบผู้เยี่ยมชม</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+<p class="font-label-sm text-label-sm text-outline mt-2">
+      สามารถสะสมแต้ม Bloom Rewards ได้หลังลงทะเบียน
+    </p>
+</div>
+<!-- Warm Loyalty Teaser Badge Card -->
+<div class="mt-space-lg p-space-md rounded-xl bg-surface-container-low shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0 text-tertiary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">filter_vintage</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-lg text-label-lg text-on-surface">รับทันที 50 Bloom Points</span>
+<span class="font-body-md text-body-md text-on-surface-variant">สำหรับสมาชิกใหม่ แลกรับส่วนลดแก้วแรก 15%</span>
+</div>
+</div>
+</div>
+<script>
+  // Password Visibility Toggle Interaction
+  const pwdInput = document.getElementById('login-password');
+  const toggleBtn = document.getElementById('toggle-pwd-btn');
+  const pwdIcon = document.getElementById('pwd-icon');
+
+  if (toggleBtn && pwdInput && pwdIcon) {
+    toggleBtn.addEventListener('click', () => {
+      const isPassword = pwdInput.type === 'password';
+      pwdInput.type = isPassword ? 'text' : 'password';
+      pwdIcon.textContent = isPassword ? 'visibility' : 'visibility_off';
+      pwdIcon.classList.toggle('text-primary', isPassword);
+    });
+  }
+
+  // Language Switcher Toggle Interaction
+  const btnTh = document.getElementById('btn-th');
+  const btnEn = document.getElementById('btn-en');
+
+  function setLanguage(lang) {
+    if (lang === 'th') {
+      btnTh.className = 'px-3 py-1 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all duration-200';
+      btnEn.className = 'px-3 py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all duration-200';
+    } else {
+      btnEn.className = 'px-3 py-1 rounded-full font-label-md text-label-md bg-primary text-on-primary transition-all duration-200';
+      btnTh.className = 'px-3 py-1 rounded-full font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all duration-200';
+    }
+  }
+
+  if (btnTh && btnEn) {
+    btnTh.addEventListener('click', () => setLanguage('th'));
+    btnEn.addEventListener('click', () => setLanguage('en'));
+  }
+</script></main></body></html>
+
+<!-- ปรับแต่งเครื่องดื่ม (Drink Customization) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(90,56,37,0.04)]"><div class="h-16 px-space-sm flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><button aria-label="Go back" class="w-11 h-11 flex items-center justify-center rounded-full text-primary hover:bg-surface-variant transition-colors flex-shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back_ios_new</span></button><img alt="Brew &amp; Bloom Logo" class="h-8 w-auto object-contain flex-shrink-0 hidden xs:block" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/><h1 class="font-headline-md text-headline-md text-primary truncate">Drink Detail &amp; Customization</h1></div><div class="flex items-center flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full pb-32">
+<div class="relative w-full px-space-md pt-space-sm">
+<div class="relative w-full h-72 rounded-xl overflow-hidden shadow-sm bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A macro artisanal shot of a Signature Dirty Coffee layered in a clear tumbler, warm rich crema espresso sinking slowly into chilled textured oat milk, warm aesthetic studio lighting, warm beige ceramic coasters, botanical subtle blurred background in Thai specialty cafe atmosphere, soft earth tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQOqtf4N6bmMJF4BASuC_p5K2uX3tmFN9BEwRkSc8PcVexbAI70DbU7VCCSeXjJDC89ImF3GnuyT8Pp0rjtDNAk15LO_RbFRX_A-4uAznA81fYkPr0wubrExMdK70tIX-0z9TevfwcEgS2p0_vqnhY9gwsfqk5yCovua5xIlG3PBMyzQR4xB_vnjWaapgbBbrdSYfzXd7OVWcEQ5OJzZ6a6cs5SuuCc2qTlYZ7K80kKDh8IpZv9nc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute top-3 right-3 flex items-center gap-1.5 px-3 py-1 bg-surface-container-lowest/90 backdrop-blur-md rounded-full shadow-sm text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">local_florist</span>
+<span class="font-label-md text-label-md text-secondary">Bloom Specialty</span>
+</div>
+<div class="absolute bottom-4 left-4 right-4 flex flex-col gap-1 text-on-primary">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm">Specialty</span>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/30 backdrop-blur-sm text-on-primary font-label-sm text-label-sm">Cold</span>
+<span class="px-2.5 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-[12px]">star</span> Signature
+          </span>
+</div>
+<div class="flex items-baseline justify-between mt-1">
+<h2 class="font-headline-lg text-headline-lg text-on-primary drop-shadow-sm">Signature Dirty Coffee</h2>
+<span class="font-headline-lg text-headline-lg text-primary-fixed drop-shadow-sm font-bold">฿95</span>
+</div>
+<p class="font-body-md text-body-md text-surface-container-low line-clamp-2">เดอร์ตี้คอฟฟี่ นมเย็นจัดราดเอสเพรสโซ่เข้มข้น หอมละมุน กลมกล่อมในทุกชั้น</p>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2 px-space-md mt-space-md">
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">schedule</span>
+<span>เสิร์ฟสด 3-5 นาที</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-secondary">eco</span>
+<span>เมล็ดออร์แกนิก</span>
+</div>
+<div class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-tertiary">favorite</span>
+<span>4.9 (1.2k รีวิว)</span>
+</div>
+</div>
+<div class="flex flex-col gap-6 px-space-md mt-6">
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-2 h-4 rounded-full bg-primary"></div>
+<span class="font-title-md text-title-md text-on-surface">ระดับความหวาน (Sweetness Level)</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">จำเป็น</span>
+</div>
+<div class="grid grid-cols-2 gap-2.5" id="sweetness-group">
+<button class="sweet-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectOption('sweetness', this, 0)" type="button">
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">หวานปกติ</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">100% มาตรฐาน</span>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</button>
+<button class="sweet-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectOption('sweetness', this, 0)" type="button">
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">หวานน้อย</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">50% ละมุน</span>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</button>
+<button class="sweet-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectOption('sweetness', this, 0)" type="button">
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">หวาน 25%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">สัมผัสบางเบา</span>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</button>
+<button class="sweet-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm" onclick="selectOption('sweetness', this, 0)" type="button">
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-primary">ไม่หวานเลย</span>
+<span class="font-label-sm text-label-sm text-on-primary-container">0% รสธรรมชาติ</span>
+</div>
+<div class="radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest">
+<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
+</div>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-2 h-4 rounded-full bg-primary"></div>
+<span class="font-title-md text-title-md text-on-surface">ประเภทนม (Milk Choice)</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">จำเป็น</span>
+</div>
+<div class="flex flex-col gap-2" id="milk-group">
+<button class="milk-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm" data-price="15" onclick="selectMilk(this, 15)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-on-primary">grain</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-primary font-semibold">Oat Milk (นมข้าวโอ๊ตบาริสต้า)</span>
+<span class="font-label-sm text-label-sm text-on-primary-container">ครีมมี่ หอมนัว เข้ากับเดอร์ตี้ที่สุด</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-primary font-bold">+฿15</span>
+<div class="milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest">
+<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
+</div>
+</div>
+</button>
+<button class="milk-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" data-price="0" onclick="selectMilk(this, 0)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-primary">water_drop</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Whole Milk (นมสดสูตรพิเศษ)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">เข้มข้นเย็นจัดสูตรเฉพาะ Bloom</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm text-on-surface-variant">ฟรี</span>
+<div class="milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+</button>
+<button class="milk-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" data-price="10" onclick="selectMilk(this, 10)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-primary">spa</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Soy Milk (นมถั่วเหลือง)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">หอมถั่วละมุนธรรมชาติ</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface">+฿10</span>
+<div class="milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+</button>
+<button class="milk-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" data-price="15" onclick="selectMilk(this, 15)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-primary">eco</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">Almond Milk (นมอัลมอนด์)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ไลท์ บอดี้เบาบาง แคลอรีต่ำ</span>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface">+฿15</span>
+<div class="milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</div>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-2 h-4 rounded-full bg-primary"></div>
+<span class="font-title-md text-title-md text-on-surface">ระดับการคั่วเมล็ดกาแฟ (Coffee Roast)</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">จำเป็น</span>
+</div>
+<div class="grid grid-cols-1 gap-2.5" id="roast-group">
+<button class="roast-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm" onclick="selectRoast(this)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-container-lowest/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-on-primary">local_cafe</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-primary font-semibold">คั่วกลาง-เข้ม</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container-lowest/30 text-on-primary">Signature House</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-primary-container">โทนช็อกโกแลต คาราเมล ถั่วคั่วหอมกรุ่น บอดี้แน่น</span>
+</div>
+</div>
+<div class="roast-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest">
+<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>
+</div>
+</button>
+<button class="roast-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left" onclick="selectRoast(this)" type="button">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px] text-primary">psychiatry</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-on-surface">คั่วกลาง-อ่อน</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-medium">Single Origin</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">โทนดอกไม้ขาว ส้มยูซุ เปรี้ยวสดชื่นสดใส</span>
+</div>
+</div>
+<div class="roast-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant">
+<div class="w-2 h-2 rounded-full bg-transparent"></div>
+</div>
+</button>
+</div>
+</section>
+<section class="flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-2 h-4 rounded-full bg-secondary"></div>
+<span class="font-title-md text-title-md text-on-surface">ท็อปปิ้งเพิ่มเติม (Add-ons)</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">เลือกได้หลายรายการ</span>
+</div>
+<div class="flex flex-col gap-2">
+<label class="flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">เอสเพรสโซ่เพิ่ม 1 ช็อต</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">สำหรับคนชอบความเข้มข้นขั้นสุด</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-lg text-label-lg text-primary font-semibold">+฿20</span>
+<input class="w-5 h-5 accent-primary rounded cursor-pointer" onchange="toggleAddon(this, 20)" type="checkbox"/>
+</div>
+</label>
+<label class="flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">cookie</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">กาแฟเจลลี่โฮมเมด</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">เคี้ยวเพลิน หวานน้อย หนึบหนับ</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-lg text-label-lg text-primary font-semibold">+฿15</span>
+<input class="w-5 h-5 accent-primary rounded cursor-pointer" onchange="toggleAddon(this, 15)" type="checkbox"/>
+</div>
+</label>
+<label class="flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-all">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-variant flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[18px]">bubble_chart</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-on-surface">บุกคริสตัล (Crystal Pearl)</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">กรุบกรอบ แคลอรีต่ำ 0% ไขมัน</span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-lg text-label-lg text-primary font-semibold">+฿15</span>
+<input class="w-5 h-5 accent-primary rounded cursor-pointer" onchange="toggleAddon(this, 15)" type="checkbox"/>
+</div>
+</label>
+</div>
+</section>
+<section class="flex flex-col gap-2.5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-primary">edit_note</span>
+<span class="font-title-md text-title-md text-on-surface">หมายเหตุถึงบาริสต้า (Special Instructions)</span>
+</div>
+<div class="relative">
+<input class="w-full h-12 px-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline-variant font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-0 shadow-inner" placeholder="เช่น นมเย็นเป็นพิเศษ, ดื่มทันทีหน้าร้าน" type="text"/>
+</div>
+</section>
+</div>
+<div class="fixed bottom-0 left-0 right-0 z-40 bg-surface-container-lowest/95 backdrop-blur-xl shadow-[0_-8px_24px_rgba(90,56,37,0.08)] px-space-md py-3 pb-safe">
+<div class="max-w-md mx-auto flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container rounded-full p-1 shadow-inner">
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform shadow-sm" onclick="adjustQty(-1)" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<span class="w-8 text-center font-label-lg text-label-lg text-on-surface font-bold" id="qty-display">1</span>
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center hover:bg-surface-variant active:scale-90 transition-transform shadow-sm" onclick="adjustQty(1)" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+</div>
+<button class="flex-1 h-12 px-5 rounded-full bg-primary hover:bg-primary-container text-on-primary flex items-center justify-between shadow-md active:scale-[0.98] transition-all" onclick="addToCartAnimation()" type="button">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span class="font-label-lg text-label-lg">เพิ่มลงตะกร้า</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-label-sm text-label-sm opacity-80">รวม</span>
+<span class="font-headline-md text-headline-md font-bold text-primary-fixed" id="total-price-display">฿110</span>
+</div>
+</button>
+</div>
+</div>
+</div>
+<script>
+  let basePrice = 95;
+  let milkExtra = 15;
+  let addonsExtra = 0;
+  let quantity = 1;
+
+  function updatePrice() {
+    const singleItemPrice = basePrice + milkExtra + addonsExtra;
+    const total = singleItemPrice * quantity;
+    document.getElementById('total-price-display').innerText = '฿' + total;
+  }
+
+  function selectOption(category, elem, price) {
+    const buttons = document.querySelectorAll('#sweetness-group .sweet-opt');
+    buttons.forEach(btn => {
+      btn.className = "sweet-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left";
+      const title = btn.querySelector('.font-label-lg');
+      const sub = btn.querySelector('.font-label-sm');
+      if (title) title.className = "font-label-lg text-label-lg text-on-surface";
+      if (sub) sub.className = "font-label-sm text-label-sm text-on-surface-variant";
+      const indicator = btn.querySelector('.radio-indicator');
+      indicator.className = "radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant";
+      indicator.innerHTML = '<div class="w-2 h-2 rounded-full bg-transparent"></div>';
+    });
+
+    elem.className = "sweet-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm";
+    const title = elem.querySelector('.font-label-lg');
+    const sub = elem.querySelector('.font-label-sm');
+    if (title) title.className = "font-label-lg text-label-lg text-on-primary";
+    if (sub) sub.className = "font-label-sm text-label-sm text-on-primary-container";
+    const indicator = elem.querySelector('.radio-indicator');
+    indicator.className = "radio-indicator w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest";
+    indicator.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>';
+  }
+
+  function selectMilk(elem, price) {
+    milkExtra = price;
+    const buttons = document.querySelectorAll('#milk-group .milk-opt');
+    buttons.forEach(btn => {
+      btn.className = "milk-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left";
+      const title = btn.querySelector('.font-label-lg');
+      const sub = btn.querySelector('.font-label-sm');
+      if (title) title.className = "font-label-lg text-label-lg text-on-surface";
+      if (sub) sub.className = "font-label-sm text-label-sm text-on-surface-variant";
+      const iconWrap = btn.querySelector('.rounded-full');
+      if (iconWrap && !iconWrap.classList.contains('milk-radio')) {
+        iconWrap.className = "w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center";
+        const icon = iconWrap.querySelector('.material-symbols-outlined');
+        if (icon) icon.className = "material-symbols-outlined text-[20px] text-primary";
+      }
+      const indicator = btn.querySelector('.milk-radio');
+      if (indicator) {
+        indicator.className = "milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant";
+        indicator.innerHTML = '<div class="w-2 h-2 rounded-full bg-transparent"></div>';
+      }
+    });
+
+    elem.className = "milk-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm";
+    const title = elem.querySelector('.font-label-lg');
+    const sub = elem.querySelector('.font-label-sm');
+    if (title) title.className = "font-label-lg text-label-lg text-on-primary font-semibold";
+    if (sub) sub.className = "font-label-sm text-label-sm text-on-primary-container";
+    const iconWrap = elem.querySelector('.rounded-full');
+    if (iconWrap && !iconWrap.classList.contains('milk-radio')) {
+      iconWrap.className = "w-9 h-9 rounded-full bg-surface-container-lowest/20 flex items-center justify-center";
+      const icon = iconWrap.querySelector('.material-symbols-outlined');
+      if (icon) icon.className = "material-symbols-outlined text-[20px] text-on-primary";
+    }
+    const indicator = elem.querySelector('.milk-radio');
+    if (indicator) {
+      indicator.className = "milk-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest";
+      indicator.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>';
+    }
+    updatePrice();
+  }
+
+  function selectRoast(elem) {
+    const buttons = document.querySelectorAll('#roast-group .roast-opt');
+    buttons.forEach(btn => {
+      btn.className = "roast-opt flex items-center justify-between p-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container transition-all text-left";
+      const title = btn.querySelector('.font-label-lg');
+      const sub = btn.querySelector('.font-label-sm');
+      if (title) title.className = "font-label-lg text-label-lg text-on-surface";
+      if (sub) sub.className = "font-label-sm text-label-sm text-on-surface-variant";
+      const iconWrap = btn.querySelector('.rounded-full');
+      if (iconWrap && !iconWrap.classList.contains('roast-radio')) {
+        iconWrap.className = "w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center";
+        const icon = iconWrap.querySelector('.material-symbols-outlined');
+        if (icon) icon.className = "material-symbols-outlined text-[20px] text-primary";
+      }
+      const indicator = btn.querySelector('.roast-radio');
+      if (indicator) {
+        indicator.className = "roast-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-variant";
+        indicator.innerHTML = '<div class="w-2 h-2 rounded-full bg-transparent"></div>';
+      }
+    });
+
+    elem.className = "roast-opt active flex items-center justify-between p-3.5 rounded-xl bg-primary-container text-on-primary-container transition-all text-left shadow-sm";
+    const title = elem.querySelector('.font-label-lg');
+    const sub = elem.querySelector('.font-label-sm');
+    if (title) title.className = "font-label-lg text-label-lg text-on-primary font-semibold";
+    if (sub) sub.className = "font-label-sm text-label-sm text-on-primary-container";
+    const iconWrap = elem.querySelector('.rounded-full');
+    if (iconWrap && !iconWrap.classList.contains('roast-radio')) {
+      iconWrap.className = "w-9 h-9 rounded-full bg-surface-container-lowest/20 flex items-center justify-center";
+      const icon = iconWrap.querySelector('.material-symbols-outlined');
+      if (icon) icon.className = "material-symbols-outlined text-[20px] text-on-primary";
+    }
+    const indicator = elem.querySelector('.roast-radio');
+    if (indicator) {
+      indicator.className = "roast-radio w-5 h-5 rounded-full flex items-center justify-center bg-surface-container-lowest";
+      indicator.innerHTML = '<div class="w-2.5 h-2.5 rounded-full bg-primary"></div>';
+    }
+  }
+
+  function toggleAddon(checkbox, price) {
+    if (checkbox.checked) {
+      addonsExtra += price;
+    } else {
+      addonsExtra -= price;
+    }
+    updatePrice();
+  }
+
+  function adjustQty(delta) {
+    quantity = Math.max(1, quantity + delta);
+    document.getElementById('qty-display').innerText = quantity;
+    updatePrice();
+  }
+
+  function addToCartAnimation() {
+    const btn = event.currentTarget;
+    btn.classList.add('scale-95');
+    setTimeout(() => {
+      btn.classList.remove('scale-95');
+      const cartIcon = btn.querySelector('.material-symbols-outlined');
+      cartIcon.innerText = 'check_circle';
+      setTimeout(() => {
+        cartIcon.innerText = 'shopping_bag';
+      }, 1200);
+    }, 150);
+  }
+</script></main></body></html>
+
+<!-- ชำระเงิน & ตรวจสอบยอด (Payment & Checkout) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(90,56,37,0.04)]"><div class="h-16 px-space-sm flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0 flex-1"><button aria-label="Go back" class="w-11 h-11 flex items-center justify-center rounded-full text-primary hover:bg-surface-variant transition-colors flex-shrink-0" onclick="history.back()"><span class="material-symbols-outlined text-[24px]">arrow_back_ios_new</span></button><img alt="Brew &amp; Bloom Logo" class="h-8 w-auto object-contain flex-shrink-0 hidden xs:block" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/><h1 class="font-headline-md text-headline-md text-primary truncate">Cart &amp; Checkout</h1></div><div class="flex items-center flex-shrink-0"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/></div></div></header><main class="flex flex-col relative w-full pt-16 pb-safe bg-surface min-h-screen"><div class="flex flex-col w-full pb-32">
+<!-- Top Ambient Banner / Delivery Mode Toggle -->
+<div class="px-margin pt-space-md">
+<!-- Pickup vs Delivery Segmented Pill Switcher -->
+<div class="bg-surface-container p-1 rounded-full flex relative shadow-sm" role="tablist">
+<button aria-selected="true" class="flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-[0_2px_8px_rgba(90,56,37,0.08)]" id="btn-pickup" onclick="setFulfillment('pickup')" role="tab">
+<span class="material-symbols-outlined text-[18px]">storefront</span>
+<span>รับที่หน้าร้าน</span>
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed-variant px-2 py-0.5 rounded-full ml-1 font-medium">15 นาที</span>
+</button>
+<button aria-selected="false" class="flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-primary" id="btn-delivery" onclick="setFulfillment('delivery')" role="tab">
+<span class="material-symbols-outlined text-[18px]">moped</span>
+<span>จัดส่งเดลิเวอรี่</span>
+<span class="font-label-sm text-label-sm text-secondary bg-surface-container-high px-2 py-0.5 rounded-full ml-1">30-40 นาที</span>
+</button>
+</div>
+<!-- Dynamic Location Card -->
+<div class="mt-space-md p-space-md bg-surface-container-low rounded-xl flex items-center gap-space-md transition-all" id="fulfillment-card">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]" id="fulfillment-icon">store</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<p class="font-label-lg text-label-lg text-primary truncate" id="fulfillment-title">สาขา อารีย์การ์เด้น (Ari Garden)</p>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-2 py-0.5 rounded-full font-medium">เปิดรับออเดอร์</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant truncate mt-0.5" id="fulfillment-sub">รับที่เคาน์เตอร์บาร์ชั้น 1 • เลขที่สั่ง 14/2 ซอยอารีย์ 4</p>
+</div>
+</div>
+</div>
+<!-- Warm Payment Due Date Urgency Banner (Delightful Tactile Alert) -->
+<div class="px-margin mt-space-md">
+<div class="bg-primary-fixed p-space-md rounded-xl shadow-sm flex gap-space-md items-start relative overflow-hidden">
+<!-- Decorative floral bloom watermark -->
+<svg class="absolute -right-4 -bottom-6 w-28 h-28 text-primary/10 pointer-events-none" fill="currentColor" viewbox="0 0 100 100">
+<path d="M50 0 C60 30 70 40 100 50 C70 60 60 70 50 100 C40 70 30 60 0 50 C30 40 40 30 50 0 Z"></path>
+</svg>
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center flex-shrink-0 mt-0.5 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+</div>
+<div class="flex-1 min-w-0 pr-2">
+<div class="flex items-center gap-1.5 flex-wrap">
+<span class="font-label-lg text-label-lg text-on-primary-fixed">กรุณาชำระเงินภายใน</span>
+<span class="font-label-lg text-label-lg bg-surface-container-lowest text-primary px-2 py-0.5 rounded-full shadow-sm" id="timer-display">14:59 นาที</span>
+</div>
+<p class="font-body-md text-body-md text-on-primary-fixed-variant mt-1 leading-snug">
+          ยอดที่ต้องชำระ: <strong class="text-primary font-title-md">฿220</strong> <br/>
+          ภายใน <strong>24 ต.ค. 2024 เวลา 15:30 น.</strong> เพื่อการันตีเมล็ดกาแฟสกัดสดและคิวชงเฉพาะบุคคล
+        </p>
+</div>
+</div>
+</div>
+<!-- Order Items & Summary Card -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center justify-between pb-space-sm mb-space-sm bg-surface-container-low px-3 py-2 rounded-lg">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[20px]">local_cafe</span>
+<span class="font-label-lg text-label-lg text-primary">รายการเครื่องดื่ม (2 แก้ว)</span>
+</div>
+<button class="font-label-md text-label-md text-on-surface-variant hover:text-primary">แก้ไขรายการ</button>
+</div>
+<!-- Item 1: Signature Dirty Coffee -->
+<div class="flex items-center gap-space-md py-space-sm">
+<div class="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Artisanal Dirty Coffee with chilled oat milk and warm espresso layering on top in a tactile frosted clear ceramic glass, soft cafe light, warm creamy aesthetic with floral wooden tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABlBy1fYYB6DZwEOfqEan1sMxTRCipVLAImhoufZtO2KJ5INGT7moRbQKSjbBDFpH9C-tcFt_wu5k0Jg6rBui09ygEvbpuUhNZY6uQl8XKePsLH7iyXuRKkkZJxiBdqevcKWMQ_FruAZPQOcb2PteHrRTErADZRCwz770lzegGKjkM6OtLHt-pUfi7J-vh6oOnl51MGxRWH4NaA7NbeNswhfDCgUVnEKaFYwQ0BUNAh48bYJB9Kd4"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex justify-between items-start">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Signature Dirty Coffee</h3>
+<span class="font-label-lg text-label-lg text-primary ml-2 flex-shrink-0">฿110</span>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed-variant px-2 py-0.5 rounded-full">นมโอ๊ต</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-2 py-0.5 rounded-full">หวาน 0%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">x1</span>
+</div>
+</div>
+</div>
+<div class="w-full h-px bg-surface-container-high my-2"></div>
+<!-- Item 2: Iced Uji Matcha Latte -->
+<div class="flex items-center gap-space-md py-space-sm">
+<div class="relative w-14 h-14 rounded-lg overflow-hidden flex-shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Ceremonial grade vibrant green Uji Matcha iced latte poured delicately over fresh milk in a clear textured glass, minimalist Japanese wooden cafe atmosphere with botanical blooms" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDXLtlphTr60fD6qmeS6MQvB2wZ1lxWnNmLZv6qgQUYygvOJJGGYX-ZjQjauvQAp5Gl_w6F-lBb4mLQQBZQifGGqK-QRRTEffvPb8TxhEwOeieRT6yVAqwZvIDKQcX2geF6bcGTm2JvjmUjNtu-u5WhhGNY5tKYdpRBOoWoyVmN4JSeU4nm1hhiJeACQwJ7LnLuMZSDeeTTPi3RyZO0Kw6g-fJubv9b8_3X6Ke6n45b-9UBNn0Fwg"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex justify-between items-start">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Iced Uji Matcha Latte</h3>
+<span class="font-label-lg text-label-lg text-primary ml-2 flex-shrink-0">฿110</span>
+</div>
+<div class="flex flex-wrap gap-1 mt-1">
+<span class="font-label-sm text-label-sm bg-secondary-fixed text-on-secondary-fixed-variant px-2 py-0.5 rounded-full">ชาเขียวอูจิแท้</span>
+<span class="font-label-sm text-label-sm bg-surface-container text-on-surface-variant px-2 py-0.5 rounded-full">หวาน 50%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">x1</span>
+</div>
+</div>
+</div>
+<!-- Price Breakdown -->
+<div class="mt-space-md pt-space-sm bg-surface-container-low p-3 rounded-lg space-y-1.5">
+<div class="flex justify-between text-on-surface-variant font-body-md text-body-md">
+<span>รวมราคาเครื่องดื่ม</span>
+<span>฿220</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-body-md text-body-md">
+<span class="flex items-center gap-1">
+<span>ค่าบริการจัดส่ง / แพ็กเกจจิ้ง</span>
+<span class="font-label-sm text-label-sm bg-secondary-container text-on-secondary-container px-1.5 py-0.2 rounded-full">สมาชิกฟรี</span>
+</span>
+<span class="text-secondary font-label-md text-label-md">฿0 <span class="line-through text-outline-variant text-[11px]">฿35</span></span>
+</div>
+<div class="flex justify-between items-center pt-2 mt-2 bg-surface-container-lowest p-2 rounded-lg">
+<span class="font-label-lg text-label-lg text-primary">ยอดชำระสุทธิ (Net Total)</span>
+<span class="font-title-md text-title-md text-primary">฿220</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Promo Code Voucher Bar -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<label class="block font-label-lg text-label-lg text-primary mb-2 flex items-center justify-between">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-tertiary-container text-[20px]">confirmation_number</span>
+          โค้ดส่วนลดและสิทธิ์สะสม Bloom
+        </span>
+<span class="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed px-2 py-0.5 rounded-full">มี 2 สิทธิ์ใช้งาน</span>
+</label>
+<div class="flex gap-2">
+<div class="relative flex-1">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline-variant text-[20px]">local_activity</span>
+<input class="w-full h-11 pl-10 pr-3 bg-surface-container rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest transition-colors" id="coupon-input" placeholder="ใส่รหัสโปรโมชั่น (เช่น BLOOMFRIEND)" type="text" value="BLOOMFREE"/>
+</div>
+<button class="h-11 px-space-md rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg hover:bg-secondary-fixed transition-colors flex items-center gap-1 flex-shrink-0" id="apply-coupon-btn" onclick="toggleCoupon()">
+<span class="material-symbols-outlined text-[18px]">check_circle</span>
+<span id="coupon-btn-label">ใช้แล้ว</span>
+</button>
+</div>
+<p class="font-label-sm text-label-sm text-secondary mt-1.5 flex items-center gap-1" id="coupon-feedback">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+<span>ใช้โค้ดสำเร็จ: ฟรีค่าจัดส่งและรับ Bloom Stamp x2</span>
+</p>
+</div>
+</div>
+<!-- Payment Methods Selection (Function 6: Payment Selection) -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center justify-between mb-space-sm">
+<h2 class="font-label-lg text-label-lg text-primary flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[20px] text-primary">payments</span>
+          เลือกวิธีชำระเงิน
+        </h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">ปลอดภัยด้วย SSL 256-bit</span>
+</div>
+<div class="space-y-2.5">
+<!-- Option 1: PromptPay QR (Pre-selected) -->
+<label class="flex items-center gap-space-md p-3.5 rounded-xl bg-surface-container-low cursor-pointer transition-all" id="pay-opt-promptpay" onclick="selectPayment('promptpay')">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">qr_code_2</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg text-primary">พร้อมเพย์ / สแกน QR Code</span>
+<span class="font-label-sm text-label-sm bg-primary-fixed text-on-primary-fixed px-1.5 py-0.2 rounded-full">แนะนำ</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">สแกนจ่ายได้ทุกแอปธนาคาร ไม่มีค่าธรรมเนียม</p>
+</div>
+<div class="radio-indicator w-6 h-6 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-sm flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+</label>
+<!-- Option 2: Credit / Debit Card -->
+<label class="flex items-center gap-space-md p-3.5 rounded-xl bg-surface-container cursor-pointer transition-all" id="pay-opt-card" onclick="selectPayment('card')">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[24px]">credit_card</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-label-lg text-label-lg text-on-surface">บัตรเครดิต / เดบิต</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container-high px-1.5 rounded">Visa / Mastercard</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">แตะหรือกรอกบัตร รับแต้มสะสมทันที</p>
+</div>
+<div class="radio-indicator w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+</label>
+<!-- Option 3: TrueMoney Wallet -->
+<label class="flex items-center gap-space-md p-3.5 rounded-xl bg-surface-container cursor-pointer transition-all" id="pay-opt-truemoney" onclick="selectPayment('truemoney')">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[24px]">account_balance_wallet</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">TrueMoney Wallet</span>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">ตัดกระเป๋าเงินอิเล็กทรอนิกส์สะดวก รวดเร็ว</p>
+</div>
+<div class="radio-indicator w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+</label>
+<!-- Option 4: Pay at Counter -->
+<label class="flex items-center gap-space-md p-3.5 rounded-xl bg-surface-container cursor-pointer transition-all" id="pay-opt-cash" onclick="selectPayment('cash')">
+<div class="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm flex-shrink-0 text-on-surface-variant">
+<span class="material-symbols-outlined text-[24px]">point_of_sale</span>
+</div>
+<div class="flex-1 min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface">ชำระเงินสดที่เคาน์เตอร์</span>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">ชำระเมื่อรับเครื่องดื่ม ณ จุดรับสินค้า</p>
+</div>
+<div class="radio-indicator w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-transparent flex-shrink-0">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+</label>
+</div>
+</div>
+</div>
+<!-- Special Instructions for Barista -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="flex items-center gap-2 mb-2">
+<span class="material-symbols-outlined text-primary text-[20px]">edit_note</span>
+<label class="font-label-lg text-label-lg text-primary" for="order-note">คำแนะนำพิเศษถึงบาริสต้า (Special Note)</label>
+</div>
+<input class="w-full h-11 px-3.5 bg-surface-container rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest transition-colors" id="order-note" placeholder="เช่น แยกน้ำแข็ง, รับหลอดกระดาษ, ขอแก้วสองชั้น..." type="text"/>
+</div>
+</div>
+<!-- Loyalty Blossom Stamp Earn Preview Micro-Card -->
+<div class="px-margin mt-space-md">
+<div class="bg-secondary-container/40 p-space-md rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-9 h-9 rounded-full bg-secondary text-on-secondary flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[20px]">psychiatry</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-lg text-label-lg text-secondary">รับทันที 2 Bloom Stamps 🌸</p>
+<p class="font-body-md text-body-md text-on-surface-variant truncate">สะสมครบ 8 สแตมป์ แลกรับเครื่องดื่มฟรี 1 แก้ว</p>
+</div>
+</div>
+<span class="font-label-md text-label-md text-secondary bg-surface-container-lowest px-2 py-1 rounded-full shadow-sm ml-2 flex-shrink-0 font-semibold">+2 ดวง</span>
+</div>
+</div>
+<!-- Sticky Bottom Checkout CTA Dock -->
+<div class="fixed bottom-0 left-0 right-0 z-40 bg-surface/95 backdrop-blur-md px-margin py-3 pb-safe shadow-[0_-8px_24px_rgba(90,56,37,0.08)]">
+<div class="max-w-md mx-auto flex items-center justify-between gap-space-md">
+<!-- Total Price Left Pillar -->
+<div class="min-w-0">
+<p class="font-label-sm text-label-sm text-on-surface-variant leading-none">ยอดชำระทั้งหมด</p>
+<div class="flex items-baseline gap-1 mt-0.5">
+<span class="font-headline-lg text-headline-lg text-primary">฿220</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-1.5 py-0.2 rounded-full font-medium">รวม VAT</span>
+</div>
+</div>
+<!-- Action Button Right Pillar -->
+<button class="flex-1 h-12 bg-primary text-on-primary rounded-full font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md active:scale-[0.98] transition-transform" id="confirm-checkout-btn" onclick="triggerPaymentConfirmation()">
+<span>ยืนยันการสั่งซื้อและชำระเงิน</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Micro Modal for PromptPay QR Confirmation simulation -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/60 backdrop-blur-sm hidden flex items-end justify-center" id="payment-modal">
+<div class="w-full max-w-md bg-surface-container-lowest rounded-t-xl p-space-lg shadow-xl animate-bounce-short">
+<div class="w-12 h-1 bg-surface-container-high rounded-full mx-auto mb-space-md"></div>
+<div class="text-center">
+<div class="w-14 h-14 mx-auto rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed-variant mb-space-sm shadow-sm">
+<span class="material-symbols-outlined text-[32px]">check_circle</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">สร้างคำสั่งซื้อสำเร็จ!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          ระบบได้รับออเดอร์หมายเลข <strong>#BB-8924</strong> แล้ว บาริสต้ากำลังเริ่มบดเมล็ดกาแฟและตีโฟมนมสดใหม่
+        </p>
+</div>
+<!-- Mock Ticket Details -->
+<div class="bg-surface-container-low p-space-md rounded-xl my-space-md space-y-2">
+<div class="flex justify-between font-label-md text-label-md text-on-surface-variant">
+<span>ประเภทการรับ:</span>
+<span class="text-primary font-semibold" id="modal-type-text">รับที่หน้าร้าน (สาขา อารีย์การ์เด้น)</span>
+</div>
+<div class="flex justify-between font-label-md text-label-md text-on-surface-variant">
+<span>เวลารับโดยประมาณ:</span>
+<span class="text-secondary font-semibold">15:30 น. (อีก 15 นาที)</span>
+</div>
+<div class="flex justify-between font-label-md text-label-md text-on-surface-variant">
+<span>วิธีชำระเงิน:</span>
+<span class="text-primary font-semibold" id="modal-pay-text">พร้อมเพย์ / PromptPay QR</span>
+</div>
+<div class="flex justify-between font-label-lg text-label-lg text-primary pt-2 border-t border-surface-container-high">
+<span>ยอดชำระแล้ว:</span>
+<span class="font-title-md text-title-md">฿220</span>
+</div>
+</div>
+<button class="w-full h-12 bg-primary text-on-primary rounded-full font-label-lg text-label-lg shadow-md active:scale-95 transition-transform flex items-center justify-center gap-1.5" onclick="closeModal()">
+<span class="material-symbols-outlined text-[20px]">receipt_long</span>
+<span>ดูสถานะคิวและการจัดทำ (Live Tracker)</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  let currentFulfillment = 'pickup';
+  let currentPayment = 'promptpay';
+  let couponApplied = true;
+
+  // Fulfillment switcher logic
+  function setFulfillment(type) {
+    currentFulfillment = type;
+    const btnPickup = document.getElementById('btn-pickup');
+    const btnDelivery = document.getElementById('btn-delivery');
+    const fulfillmentCard = document.getElementById('fulfillment-card');
+    const fulfillmentIcon = document.getElementById('fulfillment-icon');
+    const fulfillmentTitle = document.getElementById('fulfillment-title');
+    const fulfillmentSub = document.getElementById('fulfillment-sub');
+    const modalTypeText = document.getElementById('modal-type-text');
+
+    if (type === 'pickup') {
+      btnPickup.className = "flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-[0_2px_8px_rgba(90,56,37,0.08)]";
+      btnPickup.setAttribute('aria-selected', 'true');
+      btnDelivery.className = "flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-primary";
+      btnDelivery.setAttribute('aria-selected', 'false');
+
+      fulfillmentIcon.innerText = "store";
+      fulfillmentTitle.innerText = "สาขา อารีย์การ์เด้น (Ari Garden)";
+      fulfillmentSub.innerText = "รับที่เคาน์เตอร์บาร์ชั้น 1 • เลขที่สั่ง 14/2 ซอยอารีย์ 4";
+      if (modalTypeText) modalTypeText.innerText = "รับที่หน้าร้าน (สาขา อารีย์การ์เด้น)";
+    } else {
+      btnDelivery.className = "flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg bg-surface-container-lowest text-primary shadow-[0_2px_8px_rgba(90,56,37,0.08)]";
+      btnDelivery.setAttribute('aria-selected', 'true');
+      btnPickup.className = "flex-1 py-2.5 px-space-sm rounded-full flex items-center justify-center gap-space-xs transition-all duration-300 font-label-lg text-label-lg text-on-surface-variant hover:text-primary";
+      btnPickup.setAttribute('aria-selected', 'false');
+
+      fulfillmentIcon.innerText = "location_on";
+      fulfillmentTitle.innerText = "คอนโด The Reserve Phahol-Ari (ห้อง 402/12)";
+      fulfillmentSub.innerText = "ส่งตรงถึงจุด Drop-off ล็อบบี้คอนโด • ระยะทาง 1.2 กม.";
+      if (modalTypeText) modalTypeText.innerText = "จัดส่งเดลิเวอรี่ (The Reserve Phahol-Ari)";
+    }
+  }
+
+  // Payment selection logic
+  function selectPayment(method) {
+    currentPayment = method;
+    const methods = ['promptpay', 'card', 'truemoney', 'cash'];
+    const modalPayText = document.getElementById('modal-pay-text');
+
+    const paymentTitles = {
+      promptpay: 'พร้อมเพย์ / PromptPay QR',
+      card: 'บัตรเครดิต / เดบิต',
+      truemoney: 'TrueMoney Wallet',
+      cash: 'ชำระเงินสดที่เคาน์เตอร์'
+    };
+
+    if (modalPayText) modalPayText.innerText = paymentTitles[method];
+
+    methods.forEach(item => {
+      const el = document.getElementById('pay-opt-' + item);
+      const indicator = el.querySelector('.radio-indicator');
+      const iconWrap = el.querySelector('.w-10');
+      
+      if (item === method) {
+        el.classList.remove('bg-surface-container');
+        el.classList.add('bg-surface-container-low');
+        indicator.classList.remove('bg-surface-container-highest', 'text-transparent');
+        indicator.classList.add('bg-primary', 'text-on-primary');
+        iconWrap.classList.remove('text-on-surface-variant');
+        iconWrap.classList.add('text-primary');
+      } else {
+        el.classList.remove('bg-surface-container-low');
+        el.classList.add('bg-surface-container');
+        indicator.classList.remove('bg-primary', 'text-on-primary');
+        indicator.classList.add('bg-surface-container-highest', 'text-transparent');
+        iconWrap.classList.remove('text-primary');
+        iconWrap.classList.add('text-on-surface-variant');
+      }
+    });
+  }
+
+  // Coupon toggle
+  function toggleCoupon() {
+    couponApplied = !couponApplied;
+    const btnLabel = document.getElementById('coupon-btn-label');
+    const applyBtn = document.getElementById('apply-coupon-btn');
+    const feedback = document.getElementById('coupon-feedback');
+    const input = document.getElementById('coupon-input');
+
+    if (couponApplied) {
+      input.value = "BLOOMFREE";
+      btnLabel.innerText = "ใช้แล้ว";
+      applyBtn.className = "h-11 px-space-md rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg hover:bg-secondary-fixed transition-colors flex items-center gap-1 flex-shrink-0";
+      feedback.classList.remove('hidden');
+    } else {
+      input.value = "";
+      btnLabel.innerText = "ใช้โค้ด";
+      applyBtn.className = "h-11 px-space-md rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container transition-colors flex items-center gap-1 flex-shrink-0";
+      feedback.classList.add('hidden');
+    }
+  }
+
+  // Dynamic countdown timer for delight
+  let timeLeft = 14 * 60 + 59;
+  const timerDisplay = document.getElementById('timer-display');
+  setInterval(() => {
+    if (timeLeft > 0) {
+      timeLeft--;
+      const minutes = Math.floor(timeLeft / 60);
+      const seconds = timeLeft % 60;
+      if (timerDisplay) {
+        timerDisplay.innerText = `${minutes}:${seconds < 10 ? '0' : ''}${seconds} นาที`;
+      }
+    }
+  }, 1000);
+
+  // Modal actions
+  function triggerPaymentConfirmation() {
+    const modal = document.getElementById('payment-modal');
+    modal.classList.remove('hidden');
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('payment-modal');
+    modal.classList.add('hidden');
+  }
+</script></main></body></html>
+
+<!-- ข่าวสาร & ประกาศระบบ (News & Announcements) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(90,56,37,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Brew &amp; Bloom Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/><div class="flex flex-col truncate"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Brew &amp; Bloom</span><h1 class="font-title-md text-title-md text-primary truncate">News &amp; Promos</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cart" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[24px]">shopping_bag</span></button><a aria-label="User Profile" class="w-11 h-11 flex items-center justify-center rounded-full p-0.5 focus:outline-none" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Intro & Search Bar -->
+<div class="px-margin pt-space-md pb-space-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">Updates &amp; Stories</span>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">ข่าวสาร &amp; ประกาศจากคาเฟ่</h2>
+</div>
+<button aria-label="แจ้งเตือน" class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-secondary-container transition-colors relative" id="notification-toggle-btn">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+<span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error"></span>
+</button>
+</div>
+<!-- Quick Search Field -->
+<div class="relative w-full">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-outline text-[20px]">search</span>
+<input class="w-full h-11 pl-11 pr-4 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-md text-body-md focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container outline-none transition-all shadow-sm" placeholder="ค้นหาประกาศ ข่าวสาร หรือโปรโมชั่น..." type="text"/>
+</div>
+</div>
+<!-- Filter Chips (Horizontal Scrollable) -->
+<div class="w-full overflow-x-auto no-scrollbar py-space-xs px-margin">
+<div class="flex items-center gap-2 min-w-max pb-1" id="filter-chip-group">
+<button class="filter-chip active-filter px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all flex items-center gap-1.5 shadow-sm" data-filter="all">
+<span class="material-symbols-outlined text-[16px]">apps</span>
+        ทั้งหมด (All)
+      </button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high transition-all flex items-center gap-1.5" data-filter="notices">
+<span class="material-symbols-outlined text-[16px]">campaign</span>
+        ประกาศจากร้าน (Notices)
+      </button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high transition-all flex items-center gap-1.5" data-filter="promos">
+<span class="material-symbols-outlined text-[16px]">local_offer</span>
+        โปรโมชั่นพิเศษ (Promos)
+      </button>
+<button class="filter-chip px-4 py-2 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:bg-surface-container-high transition-all flex items-center gap-1.5" data-filter="events">
+<span class="material-symbols-outlined text-[16px]">event</span>
+        เวิร์กช็อปกาแฟ (Events)
+      </button>
+</div>
+</div>
+<!-- Content List Container -->
+<div class="px-margin flex flex-col gap-space-md pt-space-sm pb-space-lg">
+<!-- Pinned Official Announcement Card (ประกาศด่วนจากระบบ) -->
+<article class="news-card group relative bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm overflow-hidden" data-category="notices">
+<!-- Ambient subtle background glow for pinned notice -->
+<div class="absolute -right-12 -top-12 w-36 h-36 rounded-full bg-tertiary-fixed opacity-40 blur-2xl pointer-events-none"></div>
+<!-- Header Meta & Badge -->
+<div class="flex items-start justify-between gap-space-xs z-10">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-tertiary-fixed-dim text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">priority_high</span>
+            ประกาศสำคัญ (System Notice)
+          </span>
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px] text-tertiary">push_pin</span>
+            ปักหมุด
+          </span>
+</div>
+<!-- Action Buttons -->
+<div class="flex items-center gap-1">
+<button aria-label="บันทึกประกาศ" class="bookmark-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+<button aria-label="แชร์ข่าวสาร" class="share-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary hover:bg-surface-container transition-colors" data-title="ประกาศปรับเวลาเปิด-ปิด บริการช่วงเทศกาล">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<!-- Main Headline -->
+<h3 class="font-title-md text-title-md text-primary leading-snug hover:text-primary-container cursor-pointer transition-colors z-10">
+        ประกาศปรับเวลาเปิด-ปิด บริการช่วงเทศกาล และเปิดตัว Slow Bar เมล็ดกาแฟใหม่ประจำสัปดาห์
+      </h3>
+<!-- Post Meta Info -->
+<div class="flex items-center gap-3 text-outline font-label-sm text-label-sm z-10">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">calendar_today</span>
+          24 ตุลาคม 2024
+        </span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]">visibility</span>
+          อ่านแล้ว 1.2k ครั้ง
+        </span>
+</div>
+<!-- Snippet Body -->
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed line-clamp-3 z-10">
+        ร้าน Brew &amp; Bloom สาขาอารีย์ ขยายเวลาเปิดให้บริการ Slow Bar ถึง 20:00 น. พร้อมเสิร์ฟเมล็ดกาแฟ Ethiopia Geisha สำหรับคอกาแฟสายสโลว์ไลฟ์ สัมผัสมนต์เสน่ห์กลิ่นฟลอรัลและผลไม้ซิตรัสพร้อมบาริสต้ามือรางวัลตลอดสัปดาห์นี้
+      </p>
+<!-- Bottom Card Interactive Area -->
+<div class="pt-space-xs flex items-center justify-between z-10 mt-1">
+<span class="font-label-md text-label-md text-primary font-medium flex items-center gap-1 group-hover:translate-x-1 transition-transform cursor-pointer">
+          อ่านรายละเอียดฉบับเต็ม
+          <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</span>
+<div class="flex items-center gap-1 text-secondary font-label-sm text-label-sm bg-secondary-container/60 px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">storefront</span>
+          สาขาอารีย์ (Ari)
+        </div>
+</div>
+</article>
+<!-- Promotional Card 1: 1 แถม 1 ฉลองสาขาใหม่ -->
+<article class="news-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col" data-category="promos">
+<div class="relative w-full h-44 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Two exquisitely poured iced floral matcha lattes and specialty drip coffees set on a warm oak cafe table with sunlit shadows, delicate dried blossoms in the background, warm natural lighting, cozy and tactile Thai cafe atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx8gFftI7qOGPz2FpczrdB6t1fW9FT0TeBJ-ftIgF7V1vx2bw_sNA1O6Eev6HMMwqr_8LPBVsa6Kr0iCo6TY_PcCHO1XnkL_2iRMYZYz5ZoW37mF3lKXYvYRvQJtexu11Ty4zesfOidGtXxmTn6yYe1cv0N0FvLWY2PMfUizCn1IF3SRtw1mB_vSTvQceoZDo0sjMsbEEyG-zP9DrNnTTkDr17CL7ri4mZt5B7TIMZgzvEJF3c8pQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/70 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">celebration</span>
+            Special Opening Deal
+          </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex items-end justify-between text-on-primary">
+<span class="font-label-sm text-label-sm bg-surface-container-lowest/20 backdrop-blur-md px-2.5 py-1 rounded-full">
+            หมดเขต: 15 พฤศจิกายน 2024
+          </span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<h3 class="font-title-md text-title-md text-primary leading-snug">
+            ฉลองเปิดสาขาใหม่ รับสิทธิ์ 1 แถม 1 เมื่อสั่งผ่านแอป
+          </h3>
+<div class="flex items-center gap-1 flex-shrink-0">
+<button aria-label="บันทึกโปรโมชั่น" class="bookmark-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+<button aria-label="แชร์" class="share-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors" data-title="ฉลองเปิดสาขาใหม่ รับสิทธิ์ 1 แถม 1 โค้ด BLOOMNEW">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          ต้อนรับ Brew &amp; Bloom สาขาใหม่สุขุมวิท 49! สั่งเมนู Signature Cold Brew หรือ Matcha Blossom ใดๆ รับฟรีอีก 1 แก้วทันที
+        </p>
+<!-- Voucher Code Box -->
+<div class="bg-surface-container-low rounded-xl p-3 flex items-center justify-between gap-2">
+<div class="flex items-center gap-2 min-w-0">
+<div class="w-8 h-8 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[18px]">confirmation_number</span>
+</div>
+<div class="flex flex-col truncate">
+<span class="font-label-sm text-label-sm text-outline">รหัสคูปองส่วนลด</span>
+<span class="font-title-md text-title-md text-primary font-bold tracking-wider">BLOOMNEW</span>
+</div>
+</div>
+<button class="copy-coupon-btn px-3 py-1.5 rounded-full bg-primary text-on-primary font-label-sm text-label-sm flex items-center gap-1 active:scale-95 transition-transform flex-shrink-0" data-code="BLOOMNEW">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+            คัดลอกโค้ด
+          </button>
+</div>
+</div>
+</article>
+<!-- Promotional Card 2: Eco-Friendly Campaign -->
+<article class="news-card bg-surface-container-lowest rounded-xl p-space-md shadow-sm hover:shadow-md transition-all flex flex-col gap-space-sm" data-category="promos">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[14px]">eco</span>
+            รักษ์โลก (Green Habit)
+          </span>
+<span class="font-label-sm text-label-sm text-outline">ตลอดทั้งปี</span>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="บันทึก" class="bookmark-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+<button aria-label="แชร์" class="share-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors" data-title="Eco-Friendly: นำแก้วมาเองลด 10 บาท">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<!-- Split Layout with Visual Icon Pill -->
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[36px]">nest_eco_leaf</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h3 class="font-title-md text-title-md text-primary leading-tight">
+            Eco-Friendly Campaign: นำแก้วส่วนตัวมาเอง ลดทันที 10 บาท ทุกเมนู
+          </h3>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-1">
+            ร่วมลดขยะพลาสติกเพื่อความยั่งยืน
+          </span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        เพียงพก Tumbler หรือแก้วส่วนตัวมาสั่งเครื่องดื่มที่เคาน์เตอร์ทุกสาขา รับส่วนลดทันที 10.- ต่อแก้ว พร้อมรับแต้มสะสม Green Stamp 2 เท่าสำหรับสมาชิกแอป Brew &amp; Bloom
+      </p>
+<div class="flex items-center justify-between pt-1">
+<div class="flex items-center gap-1.5 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">check_circle</span>
+          ใช้ได้กับทุกสาขาและทุกเมนู
+        </div>
+<span class="font-label-sm text-label-sm text-primary font-medium hover:underline cursor-pointer">
+          ดูเงื่อนไข
+        </span>
+</div>
+</article>
+<!-- Promotional Card 3: Specialty Latte Art Workshop -->
+<article class="news-card bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col" data-category="events">
+<div class="relative w-full h-44 bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Hands of an expert barista pouring silky velvety steamed milk into an artisanal ceramic cup creating a delicate rosetta latte art pattern, espresso machine and warm wooden cafe background, ambient natural light, hyper-realistic, artisanal and calm aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmKqs7JwEeUThQBcerh2G8xI3yDX_AOZpwDRtX-sjT1HNmuIr24oJk4839nDmmhY-xD34f2S1ibxJyS29L2K_D0teHp5EqlOVf8usE-Mf74uvkW9IEw3gLvaT59brPPO6mipI_4y0nk4kB16n4Weo737_eusSllm7sCdRn6PPhcyofk6paF120ZHEm2Odv7IATdHFnqVvNreiGoaFfkj9zMcVxaCYi8QE3kChsGyyzZXiGerIKDic"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-transparent to-transparent"></div>
+<div class="absolute top-3 left-3">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px]">school</span>
+            Brew Masterclass
+          </span>
+</div>
+<div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-on-primary">
+<div class="flex items-center gap-1 font-label-sm text-label-sm bg-surface-container-lowest/20 backdrop-blur-md px-2.5 py-1 rounded-full">
+<span class="material-symbols-outlined text-[14px]">group</span>
+            จำกัดเพียง 8 ท่านต่อรอบ
+          </div>
+<span class="font-label-md text-label-md font-bold text-primary-fixed">฿1,890 / ท่าน</span>
+</div>
+</div>
+<div class="p-space-md flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<h3 class="font-title-md text-title-md text-primary leading-snug">
+            Specialty Latte Art Workshop รอบเดือนพฤศจิกายน เปิดรับสมัครแล้ว!
+          </h3>
+<div class="flex items-center gap-1 flex-shrink-0">
+<button aria-label="บันทึกกิจกรรม" class="bookmark-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors">
+<span class="material-symbols-outlined text-[20px]">bookmark</span>
+</button>
+<button aria-label="แชร์" class="share-btn w-8 h-8 rounded-full flex items-center justify-center text-outline hover:text-primary transition-colors" data-title="Specialty Latte Art Workshop พฤศจิกายนนี้">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant line-clamp-2">
+          เรียนรู้เทคนิคการสตีมนมให้อุณหภูมิและฟองโฟมเนียนนุ่ม พร้อมฝึกเทลายพื้นฐาน Tulip และ Rosetta โดย Head Barista การันตีผลงาน พร้อมรับเซ็ตเมล็ดกาแฟ House Blend กลับบ้านฟรี
+        </p>
+<!-- Event Detail Tags -->
+<div class="flex flex-wrap items-center gap-2 pt-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">event_available</span>
+            16-17 พ.ย. 2024 (13:00 - 16:30 น.)
+          </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_on</span>
+            Lab Room สาขาเอกมัย
+          </span>
+</div>
+<!-- Reserve CTA Button -->
+<button class="w-full mt-2 h-11 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm active:scale-98 hover:bg-primary-container transition-all">
+<span>สำรองที่นั่งเวิร์กช็อป</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Interactive Community Feedback / Suggestion Box -->
+<div class="rounded-xl bg-surface-container-high/60 p-space-md flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest text-primary flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">mark_chat_unread</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h4 class="font-title-md text-title-md text-primary">มีข้อเสนอแนะเกี่ยวกับเมนูใหม่?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">บอกเราได้เสมอ เพื่อให้ทุกหยดกาแฟตอบโจทย์คุณที่สุด</p>
+</div>
+<button class="px-3 py-1.5 rounded-full bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary text-label-sm font-label-sm transition-colors flex-shrink-0 shadow-sm">
+        ส่งความคิดเห็น
+      </button>
+</div>
+</div>
+<!-- Toast Notification Container (Floating micro-delight) -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 z-50 px-4 py-2.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-lg flex items-center gap-2 pointer-events-none opacity-0 transition-opacity duration-300" id="toast-message">
+<span class="material-symbols-outlined text-[18px]" id="toast-icon">check_circle</span>
+<span id="toast-text">คัดลอกโค้ดสำเร็จแล้ว</span>
+</div>
+</div>
+<script>
+  (function() {
+    // Toast Helper
+    function showToast(text, icon = 'check_circle') {
+      const toast = document.getElementById('toast-message');
+      const toastText = document.getElementById('toast-text');
+      const toastIcon = document.getElementById('toast-icon');
+      if (!toast) return;
+      toastText.textContent = text;
+      toastIcon.textContent = icon;
+      toast.classList.remove('opacity-0');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0');
+      }, 2400);
+    }
+
+    // Filter Chips Interactive Logic
+    const filterButtons = document.querySelectorAll('.filter-chip');
+    const cards = document.querySelectorAll('.news-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const targetFilter = btn.getAttribute('data-filter');
+
+        // Update active filter style
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+
+        // Filter cards smoothly
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          if (targetFilter === 'all' || cat === targetFilter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Copy Voucher Code Logic
+    document.querySelectorAll('.copy-coupon-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const code = btn.getAttribute('data-code');
+        navigator.clipboard?.writeText(code).then(() => {
+          showToast(`คัดลอกโค้ด ${code} เรียบร้อยแล้ว!`, 'content_copy');
+        }).catch(() => {
+          showToast(`โค้ดของคุณ: ${code}`, 'content_copy');
+        });
+      });
+    });
+
+    // Bookmark Toggle Logic with tactile micro-interaction
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const icon = btn.querySelector('.material-symbols-outlined');
+        const isFilled = icon.style.fontVariationSettings?.includes("'FILL' 1");
+        if (isFilled) {
+          icon.style.fontVariationSettings = "'FILL' 0";
+          btn.classList.remove('text-primary');
+          btn.classList.add('text-outline');
+          showToast('ยกเลิกการบันทึกรายการ', 'bookmark_remove');
+        } else {
+          icon.style.fontVariationSettings = "'FILL' 1";
+          btn.classList.remove('text-outline');
+          btn.classList.add('text-primary');
+          showToast('บันทึกไว้ในรายการโปรดแล้ว', 'bookmark_added');
+        }
+      });
+    });
+
+    // Web Share or Fallback Copy
+    document.querySelectorAll('.share-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const title = btn.getAttribute('data-title') || 'ข่าวสารจาก Brew & Bloom';
+        if (navigator.share) {
+          navigator.share({
+            title: title,
+            text: `${title} - อ่านเพิ่มเติมได้ที่ Brew & Bloom คาเฟ่`,
+            url: window.location.href,
+          }).catch(() => {});
+        } else {
+          navigator.clipboard?.writeText(`${title} - ${window.location.href}`);
+          showToast('คัดลอกลิงก์สำหรับแชร์แล้ว', 'share');
+        }
+      });
+    });
+
+    // Notification bell micro-action
+    const notifBtn = document.getElementById('notification-toggle-btn');
+    if (notifBtn) {
+      notifBtn.addEventListener('click', () => {
+        const dot = notifBtn.querySelector('.bg-error');
+        if (dot) dot.remove();
+        showToast('อัปเดตการแจ้งเตือนทั้งหมดแล้ว', 'done_all');
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(90,56,37,0.06)]" data-active-classes="text-primary font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">local_cafe</span><span class="font-label-sm text-label-sm leading-tight">หน้าแรก</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="menu" href="#"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm leading-tight">สั่งเครื่องดื่ม</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="news-promos" href="#"><span class="material-symbols-outlined text-[22px]">loyalty</span><span class="font-label-sm text-label-sm leading-tight">โปรโมชั่น</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="orders" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm leading-tight">คำสั่งซื้อ</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">account_circle</span><span class="font-label-sm text-label-sm leading-tight">โปรไฟล์</span></a></div></nav></body></html>
+
+<!-- โปรไฟล์ & แก้ไขข้อมูล (User Profile) -->
+<!DOCTYPE html>
+
+<html lang="th"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "error-container": "#ffdad6", "outline-variant": "#d5c3bb", "surface-container-lowest": "#ffffff", "inverse-on-surface": "#f3f0ea", "surface-variant": "#e5e2dc", "surface-container-high": "#ebe8e2", "primary-container": "#5a3825", "on-tertiary": "#ffffff", "tertiary-container": "#7a1a35", "surface-container-low": "#f6f3ed", "secondary-fixed": "#d2eac6", "on-tertiary-fixed-variant": "#83213b", "tertiary-fixed": "#ffd9dd", "on-primary": "#ffffff", "secondary-fixed-dim": "#b6cdab", "background": "#fcf9f3", "primary-fixed-dim": "#eebca2", "surface-dim": "#dcdad4", "secondary-container": "#d2eac6", "secondary": "#4f6448", "tertiary": "#5b0020", "surface-bright": "#fcf9f3", "on-tertiary-container": "#ff879e", "on-primary-fixed": "#2f1405", "on-secondary-fixed-variant": "#384c32", "outline": "#83746d", "on-secondary-container": "#556a4d", "on-error-container": "#93000a", "inverse-surface": "#31312d", "on-secondary": "#ffffff", "on-primary-container": "#d2a289", "on-tertiary-fixed": "#400014", "on-error": "#ffffff", "surface-tint": "#7c5641", "error": "#ba1a1a", "surface-container-highest": "#e5e2dc", "primary-fixed": "#ffdbca", "on-primary-fixed-variant": "#623e2b", "primary": "#412311", "inverse-primary": "#eebca2", "on-background": "#1c1c18", "on-secondary-fixed": "#0e200a", "on-surface": "#1c1c18", "tertiary-fixed-dim": "#ffb2bd", "surface": "#fcf9f3", "on-surface-variant": "#50443e", "surface-container": "#f0eee8" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-lg": "1.5rem", "gutter-tablet": "1.5rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "gutter": "1rem", "gutter-desktop": "2rem", "margin-desktop": "3rem", "margin": "1rem", "space-sm": "0.5rem", "margin-tablet": "2rem" }, fontFamily: { "headline-md": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "title-md": ["Be Vietnam Pro"], "body-lg": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-lg": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, fontSize: { "headline-md": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "title-md": ["18px", { "lineHeight": "24px", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "18px", "fontWeight": "600" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(90,56,37,0.04)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Brew &amp; Bloom Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1XYNt0cXL4oW5tqGKnIz_0_o9cYeOpAUUOINvfmE9Q3zU7GCcUfgZSAVLzQqnsEgdrXkK5VlhUQP568d0TDcDkAVIRPAFC6TD-r_s9pLP3pNwpRMHK8Bzd3rlFiHdUPz5qm-EEA-N3zdvSHK4vA7grlFAQCETRHriY980op--GafyxFAdzvDKvdNxq9EqLXi1GuD06ZewiXIcefh_xZ06QuL9EzMTGHm08ioaNk4aMlFBN_lA1aI2eJ"/><div class="flex flex-col truncate"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Brew &amp; Bloom</span><h1 class="font-title-md text-title-md text-primary truncate">Profile</h1></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button aria-label="Cart" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary transition-colors"><span class="material-symbols-outlined text-[24px]">shopping_bag</span></button><a aria-label="User Profile" class="w-11 h-11 flex items-center justify-center rounded-full p-0.5 focus:outline-none" data-path="profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/></a></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Header Decor -->
+<div class="px-margin pt-space-md pb-space-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">spa</span>
+<span class="font-label-md text-label-md tracking-wider uppercase text-on-surface-variant">Account &amp; Preference</span>
+</div>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm shadow-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+        สถานะปกติ
+      </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">โปรไฟล์ &amp; แก้ไขข้อมูลผู้ใช้</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">จัดการข้อมูลส่วนตัว สิทธิพิเศษ และรสชาติกาแฟแก้วโปรด</p>
+</div>
+<!-- Profile Avatar Card -->
+<div class="px-margin mb-space-md">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm relative overflow-hidden flex flex-col items-center">
+<!-- Decorative Organic Warm Aura -->
+<div class="absolute -top-12 -right-12 w-36 h-36 bg-primary-fixed-dim/30 rounded-full blur-2xl pointer-events-none"></div>
+<div class="absolute -bottom-8 -left-8 w-28 h-28 bg-secondary-fixed/40 rounded-full blur-xl pointer-events-none"></div>
+<!-- Avatar with Change Photo Trigger -->
+<div class="relative mb-space-sm group">
+<div class="w-24 h-24 rounded-full p-1 bg-surface-container shadow-sm flex items-center justify-center">
+<img alt="Friendly Asian female cafe customer profile avatar" class="w-full h-full rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkFW-XxxKRZO31ny9qEUtMFETXZZazXpjQ2iUce4ctHv7lcNY3_3sFIXLDbvRYM_9kU75DxwovVbEKkS5LWqkDUIW0-Sb0mYD51MahKPWTuncFv7_TIII4ymYSU0l1O9AfBuRI-b63IUaMCxraw0cQyFOq9WkcZIA3jE9EMj2gvac0mCaIiGEYCA7wU1mZLVK4-z5dB1cgKirdJ9GQ-UrxLBtNvdhw9CxSyRTHPOubEd208qWvMNA"/>
+</div>
+<button aria-label="เปลี่ยนรูปถ่าย" class="absolute bottom-0 right-0 w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shadow-md active:scale-95 transition-transform" id="changePhotoBtn" type="button">
+<span class="material-symbols-outlined text-[17px]">photo_camera</span>
+</button>
+</div>
+<div class="text-center">
+<h3 class="font-title-md text-title-md text-on-surface">นภัสสร สุขเจริญ</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">napatsorn.s@example.com</p>
+</div>
+<!-- Membership Tier Pill -->
+<div class="mt-space-sm inline-flex items-center gap-space-xs px-3.5 py-1.5 rounded-full bg-surface-container-high text-primary shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary-container" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<span class="font-label-lg text-label-lg font-semibold text-primary">Gold Member</span>
+<span class="text-outline text-[12px]">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">สมาชิกตั้งแต่ ม.ค. 2024</span>
+</div>
+<!-- Loyalty Progress Ribbon -->
+<div class="w-full mt-space-md pt-space-sm bg-surface-container-low rounded-lg p-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<div class="w-7 h-7 rounded-full bg-tertiary-fixed text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">local_florist</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface">คะแนนสะสม 480 Bloom Points</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">อีก 20 แต้มรับเครื่องดื่มฟรี</div>
+</div>
+</div>
+<button class="font-label-md text-label-md text-primary font-semibold hover:underline" type="button">ดูสิทธิประโยชน์</button>
+</div>
+</div>
+</div>
+<!-- Form Section -->
+<form class="px-margin flex flex-col gap-space-md pb-space-lg" id="profileForm">
+<!-- Section 1: ข้อมูลส่วนตัวพื้นฐาน -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">person_outline</span>
+<h4 class="font-title-md text-title-md text-primary">ข้อมูลส่วนตัว</h4>
+</div>
+<!-- First & Last Name Fields (Stacked for mobile friendliness) -->
+<div class="flex flex-col gap-space-sm">
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="firstName">ชื่อ</label>
+<div class="relative">
+<input class="w-full h-12 px-space-md rounded-lg bg-surface-container text-on-surface font-body-lg text-body-lg focus:bg-surface-container-lowest focus:outline-none transition-all" id="firstName" name="firstName" required="" type="text" value="นภัสสร"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[18px] text-outline pointer-events-none">badge</span>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="lastName">นามสกุล</label>
+<div class="relative">
+<input class="w-full h-12 px-space-md rounded-lg bg-surface-container text-on-surface font-body-lg text-body-lg focus:bg-surface-container-lowest focus:outline-none transition-all" id="lastName" name="lastName" required="" type="text" value="สุขเจริญ"/>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[18px] text-outline pointer-events-none">badge</span>
+</div>
+</div>
+</div>
+<!-- Email Address (Verified) -->
+<div>
+<div class="flex items-center justify-between mb-1">
+<label class="font-label-md text-label-md text-on-surface-variant" for="email">อีเมล (Email Address)</label>
+<span class="inline-flex items-center gap-0.5 text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+            ยืนยันแล้ว
+          </span>
+</div>
+<div class="relative">
+<input class="w-full h-12 pl-space-md pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="email" name="email" type="email" value="napatsorn.s@example.com"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-[18px] text-outline">mail</span>
+</div>
+</div>
+<!-- Phone Number -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="phoneNumber">เบอร์โทรศัพท์มือถือ</label>
+<div class="relative">
+<input class="w-full h-12 pl-space-md pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="phoneNumber" name="phoneNumber" type="tel" value="089-123-4567"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-[18px] text-outline">smartphone</span>
+</div>
+</div>
+<!-- Birthday (With Birthday Perk Callout) -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1" for="birthday">วันเกิด</label>
+<div class="relative">
+<input class="w-full h-12 pl-space-md pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none transition-all" id="birthday" name="birthday" type="text" value="15 พฤษภาคม 1996"/>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-[18px] text-outline">cake</span>
+</div>
+<div class="mt-1.5 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-secondary-fixed text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[16px] text-secondary">card_giftcard</span>
+<span class="font-label-sm text-label-sm">รับฟรีเครื่องดื่มซิกเนเจอร์ 1 แก้วในเดือนเกิดของคุณ</span>
+</div>
+</div>
+</div>
+<!-- Section 2: ความชอบส่วนตัว (Coffee Preference) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">coffee_maker</span>
+<h4 class="font-title-md text-title-md text-primary">รสชาติกาแฟที่ชื่นชอบ</h4>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">บาริสต้าจะนำข้อมูลนี้ไปช่วยปรับแต่งแนะนำเมนูประจำตัวคุณ</p>
+<div class="relative mt-space-xs">
+<select class="w-full h-12 px-space-md pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md appearance-none focus:bg-surface-container-lowest focus:outline-none transition-all cursor-pointer" id="coffeePreference" name="coffeePreference">
+<option selected="" value="medium_oat">กาแฟนมคั่วกลาง / นมโอ๊ต</option>
+<option value="dark_iced">เอสเพรสโซ่คั่วเข้ม / ไม่ใส่น้ำตาล</option>
+<option value="light_pour_over">ดริปร้อนคั่วอ่อน (Floral &amp; Citrus)</option>
+<option value="matcha_lover">มัทฉะลาเต้เกรดพิธีการ / หวาน 25%</option>
+<option value="dirty_coffee">เดอร์ตี้ช็อตเย็นจัด / ครีมนมเข้มข้น</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3 text-[20px] text-primary pointer-events-none">expand_more</span>
+</div>
+<!-- Quick Taste Badges -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">eco</span> นมโอ๊ตธรรมชาติ
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">local_fire_department</span> คั่วกลาง
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[13px]">water_drop</span> หวาน 50%
+        </span>
+</div>
+</div>
+<!-- Section 3: การตั้งค่าการแจ้งเตือน (Notifications) -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">notifications_active</span>
+<h4 class="font-title-md text-title-md text-primary">การตั้งค่าการแจ้งเตือน</h4>
+</div>
+<!-- Toggle 1: Push Notification -->
+<div class="flex items-center justify-between gap-space-sm">
+<div class="min-w-0">
+<div class="font-label-lg text-label-lg text-on-surface">การแจ้งเตือนสถานะออเดอร์</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">แจ้งเตือนทันทีเมื่อกาแฟเริ่มชงและพร้อมรับ (Push Notification)</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input checked="" class="sr-only peer" id="pushNotifToggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-surface-container-lowest after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-container"></div>
+</label>
+</div>
+<div class="h-[1px] bg-surface-container-high w-full"></div>
+<!-- Toggle 2: Email Promotions -->
+<div class="flex items-center justify-between gap-space-sm">
+<div class="min-w-0">
+<div class="font-label-lg text-label-lg text-on-surface">ข่าวสารโปรโมชั่นและแต้มสะสม</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">รับข่าวสารเมล็ดกาแฟใหม่และสรุปสิทธิประโยชน์ทางอีเมล</div>
+</div>
+<label class="relative inline-flex items-center cursor-pointer flex-shrink-0">
+<input checked="" class="sr-only peer" id="emailNotifToggle" type="checkbox"/>
+<div class="w-11 h-6 bg-surface-container-highest peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-surface-container-lowest after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-primary-container"></div>
+</label>
+</div>
+</div>
+<!-- Feedback Toast Container (Hidden by default) -->
+<div class="hidden transition-all duration-300 p-space-sm rounded-lg bg-secondary text-on-secondary shadow-md flex items-center justify-between" id="saveToast">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span class="font-body-md text-body-md">บันทึกข้อมูลเรียบร้อยแล้ว</span>
+</div>
+<button class="text-on-secondary hover:opacity-80" id="closeToastBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Action Buttons Group -->
+<div class="flex flex-col gap-space-sm mt-space-xs">
+<!-- Primary Save Button -->
+<button class="w-full h-12 rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md active:scale-[0.99] transition-all hover:bg-primary" id="saveBtn" type="submit">
+<span class="material-symbols-outlined text-[20px]">save</span>
+        บันทึกการเปลี่ยนแปลง (Save Changes)
+      </button>
+<!-- Secondary Cancel Button -->
+<button class="w-full h-12 rounded-full bg-surface-container text-on-surface-variant font-label-lg text-label-lg flex items-center justify-center hover:bg-surface-container-high active:scale-[0.99] transition-all" id="cancelBtn" type="button">
+        ยกเลิก (Cancel)
+      </button>
+<!-- Log Out Button -->
+<button class="w-full h-11 mt-space-xs rounded-full bg-transparent text-error font-label-md text-label-md flex items-center justify-center gap-1.5 hover:bg-error-container/20 transition-all" id="logoutBtn" type="button">
+<span class="material-symbols-outlined text-[18px]">logout</span>
+        ออกจากระบบ (Log Out)
+      </button>
+</div>
+</form>
+</div>
+<script>
+  (function () {
+    const form = document.getElementById('profileForm');
+    const toast = document.getElementById('saveToast');
+    const closeToastBtn = document.getElementById('closeToastBtn');
+    const cancelBtn = document.getElementById('cancelBtn');
+    const changePhotoBtn = document.getElementById('changePhotoBtn');
+    const logoutBtn = document.getElementById('logoutBtn');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      if (toast) {
+        toast.classList.remove('hidden');
+        toast.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        setTimeout(() => {
+          toast.classList.add('hidden');
+        }, 3500);
+      }
+    });
+
+    if (closeToastBtn && toast) {
+      closeToastBtn.addEventListener('click', function () {
+        toast.classList.add('hidden');
+      });
+    }
+
+    if (cancelBtn) {
+      cancelBtn.addEventListener('click', function () {
+        document.getElementById('firstName').value = 'นภัสสร';
+        document.getElementById('lastName').value = 'สุขเจริญ';
+        document.getElementById('phoneNumber').value = '089-123-4567';
+        document.getElementById('birthday').value = '15 พฤษภาคม 1996';
+        document.getElementById('coffeePreference').value = 'medium_oat';
+        if (toast) toast.classList.add('hidden');
+      });
+    }
+
+    if (changePhotoBtn) {
+      changePhotoBtn.addEventListener('click', function () {
+        alert('เลือกรูปภาพใหม่จากแกลเลอรีหรือถ่ายภาพสด');
+      });
+    }
+
+    if (logoutBtn) {
+      logoutBtn.addEventListener('click', function () {
+        if (confirm('คุณต้องการออกจากระบบ Brew & Bloom หรือไม่?')) {
+          window.location.reload();
+        }
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_16px_rgba(90,56,37,0.06)]" data-active-classes="text-primary font-semibold"><div class="flex items-center justify-around h-16 px-space-xs"><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">local_cafe</span><span class="font-label-sm text-label-sm leading-tight">หน้าแรก</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="menu" href="#"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm leading-tight">สั่งเครื่องดื่ม</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="news-promos" href="#"><span class="material-symbols-outlined text-[22px]">loyalty</span><span class="font-label-sm text-label-sm leading-tight">โปรโมชั่น</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 text-on-surface-variant hover:text-primary transition-all duration-200" data-path="orders" href="#"><span class="material-symbols-outlined text-[22px]">receipt_long</span><span class="font-label-sm text-label-sm leading-tight">คำสั่งซื้อ</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[56px] min-h-[44px] py-1 transition-all duration-200 text-primary font-semibold" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">account_circle</span><span class="font-label-sm text-label-sm leading-tight">โปรไฟล์</span></a></div></nav></body></html>
